@@ -2,17 +2,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-
-<a href="https://localhost:44300" onclick="signOut();">Sign out</a>
-<script>
-  function signOut() {
-    var auth2 = gapi.auth2.getAuthInstance();
-    auth2.signOut().then(function () {
-      console.log('User signed out.');
-    });
-  }
-</script>
+    <div class="content">
+        <div class="container-fluid">
+            <h2>Group Channel</h2>
+            <div class="row">
+                <div class="column">
+                    <a href="Privacy" title=""><img src="https://scontent.fsgn5-1.fna.fbcdn.net/v/t1.0-9/84274017_2836588286379914_5044877764226711552_n.png?_nc_cat=1&_nc_sid=85a577&_nc_ohc=0yDQvrTsg1IAX_qxVAL&_nc_ht=scontent.fsgn5-1.fna&oh=191671adf781ca0e06d3f60ee585aa37&oe=5F25848C" style="width:100%"></a>
+                </div>
+                <div class="column">
+                    <a href="#" title=""><img src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/89005546_106384924304749_3267912531011698688_n.jpg?_nc_cat=104&_nc_sid=85a577&_nc_ohc=j8mrDjuFxuAAX-5d3Os&_nc_ht=scontent-sin6-1.xx&oh=d2e9ecc6f18a128eb654987bef83fc8f&oe=5F267C5D" style="width:100%"></a>
+                </div>
+                <div class="column">
+                    <a href="#" title=""><img src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.0-9/p960x960/83943702_3087757077919659_3145139232998162432_o.jpg?_nc_cat=100&_nc_sid=7aed08&_nc_ohc=CCndR59gfm8AX87WvJO&_nc_ht=scontent.fsgn5-5.fna&_nc_tp=6&oh=27708a84b2510de60f1a0a489cfe9ddb&oe=5F27C598" style="width:100%"></a>
+                </div>
+            </div>
+        </div>
+    </div>
